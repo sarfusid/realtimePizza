@@ -1,0 +1,22 @@
+{
+  "name": "realtime-pizza",
+  "version": "1.0.0",
+  "description": "This is Realtime pizza project",
+  "main": "index.js",
+  "author": "Sarfaraz",
+  "license": "MIT",
+
+  "scripts": {
+    "serve": "node-ejs",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "ejs-loader": "^0.5.0",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
